@@ -1,0 +1,55 @@
+#htmlTableSchedule {
+  max-width: 900px;
+  margin: 0 auto;
+}
+#htmlTableSchedule .tab_head {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#htmlTableSchedule .tab_head .tabs_item1 {
+  border: 1px solid black;
+  transform: translateY(1px);
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+}
+#htmlTableSchedule .tab_head .tabs_item1.tabs_item_active {
+  border-bottom: 1px solid white;
+  background-color: rgba(0, 0, 255, 0.05);
+}
+#htmlTableSchedule .schedule_tables {
+  overflow: auto;
+}
+#htmlTableSchedule .schedule_tables .table {
+  display: none;
+  width: 900px;
+  overflow: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+#htmlTableSchedule .schedule_tables .table .table_item {
+  width: calc(100% / 7);
+  border: 1px solid;
+  padding: 5px;
+  box-sizing: border-box;
+}
+#htmlTableSchedule .schedule_tables .table .table_item_long {
+  width: 100%;
+  padding: 15px 5px;
+}
+#htmlTableSchedule .schedule_tables .table.table_active {
+  display: flex;
+}
+@media (max-width: 900px) {
+  #htmlTableSchedule .tab_head {
+    flex-direction: column;
+  }
+  #htmlTableSchedule .tab_head .tabs_item1 {
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+}
+/*# sourceMappingURL=ex-json3-schedule-test.css.map */
