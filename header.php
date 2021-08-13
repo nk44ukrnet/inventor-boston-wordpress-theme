@@ -96,13 +96,12 @@
 
 <!-- wrapper -->
 <div class="total_wrapper">
-
     <!-- header -->
     <header class="header header_border_bottom">
         <!-- header v2 -->
         <div class="inner_wrapper_header">
             <div class="header_v2_holder">
-                <div class="header_v2_item"><a href="<?php get_home_url(); ?>"><img
+                <div class="header_v2_item"><a href="<?php echo get_site_url(); ?>"><img
                                 src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Main logo"
                                 class="main_logo_v2"></a>
                 </div>
@@ -114,7 +113,7 @@
                         <?php html5blank_nav(); ?>
                     </div>
                     <div class="h_v2_item_flex_inner">
-                        <a href="#!" class="singup_v2_header a_default_style d-block">Free Trial</a>
+                        <a href="<?php echo get_site_url(); ?>/trial" class="singup_v2_header a_default_style d-block">Free Trial</a>
                     </div>
                 </div>
             </div>

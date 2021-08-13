@@ -5,7 +5,6 @@ get_header();
 ?>
 
 <main class="main">
-
     <section class="video_bg_section_v2">
 
         <div class="video_bg_holder_v2">
@@ -46,7 +45,7 @@ get_header();
 
                             <div class="video_bg_v2_item">
 
-                                <a class="button_signup_video" href="learn-more" data-toggle="modal" data-target="#learn_more">
+                                <a class="button_signup_video" href="<?php echo get_site_url(); ?>/learn_more" data-toggle="modal" data-target="#learn_more">
                                     Learn More
                                 </a> <br>
 
@@ -264,7 +263,7 @@ get_header();
 
                 </p>
 
-                <a class="button_signup_video button_signup_video_compteneces" href="/learn_more" data-toggle="modal"
+                <a class="button_signup_video button_signup_video_compteneces" href="<?php echo get_site_url(); ?>/learn_more" data-toggle="modal"
                    data-target="#learn_more">
                     Learn More
                 </a> <br>
@@ -299,7 +298,7 @@ get_header();
                 <div class="singup_inner_item">
 
 
-                    <a href="/learn_more" class="den_btn" data-toggle="modal" data-target="#learn_more">Learn More</a>
+                    <a href="<?php echo get_site_url(); ?>/learn_more" class="den_btn" data-toggle="modal" data-target="#learn_more">Learn More</a>
 
                 </div>
 

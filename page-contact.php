@@ -12,21 +12,21 @@ get_header();
             <div class="contacts_inner_holder">
                 <div class="contacts_inner_item contacts_inner_item1">Report an absence</div>
                 <div class="contacts_inner_item contacts_inner_item2">
-                    <a href="#!" class="btn-sbm-contacts btn-sbm-contacts1" data-toggle="modal" data-target="#reportAnAbsence">Report</a>
+                    <a href="<?php echo site_url(); ?>/report_absence" class="btn-sbm-contacts btn-sbm-contacts1" data-toggle="modal" data-target="#reportAnAbsence">Report</a>
                 </div>
             </div>
 
             <div class="contacts_inner_holder">
                 <div class="contacts_inner_item contacts_inner_item1"><!--Sign up for a Trial Lesson-->Learn more about Inventor</div>
                 <div class="contacts_inner_item contacts_inner_item2">
-                    <a href="/learn_more" class="btn-sbm-contacts">Learn More</a>
+                    <a href="<?php echo site_url(); ?>/learn_more" class="btn-sbm-contacts">Learn More</a>
                 </div>
             </div>
 
             <div class="contacts_inner_holder">
                 <div class="contacts_inner_item contacts_inner_item1">Email the Director</div>
                 <div class="contacts_inner_item contacts_inner_item2">
-                    <a href="#!" class="btn-sbm-contacts btn-sbm-contacts3" data-toggle="modal" data-target="#emailToDirector">Send</a>
+                    <a href="<?php echo site_url(); ?>/email_director" class="btn-sbm-contacts btn-sbm-contacts3" data-toggle="modal" data-target="#emailToDirector">Send</a>
                 </div>
             </div>
 
@@ -56,7 +56,7 @@ get_header();
 
                 <div class="social_inner_item">
 
-                    <a href="https://www.facebook.com/InventorSTEMSchool" target="_blank" class="soc_icon"><img src="./img/fb_icon.png" alt="Facebook"></a>
+                    <a href="https://www.facebook.com/InventorSTEMSchool" target="_blank" class="soc_icon"><img src="<?php get_theme_file_uri(); ?>/img/fb_icon.png" alt="Facebook"></a>
 
                     <!-- <a href="#!" class="soc_icon"><img src="./img/youtube_icon.png" alt="Youtube"></a>
 

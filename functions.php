@@ -72,7 +72,7 @@ function html5blank_nav()
 // Load HTML5 Blank scripts (header.php)
 function html5blank_header_scripts()
 {
-    wp_register_script('inventor', get_template_directory_uri() . '/script/script.js', microtime());
+    wp_register_script('inventor', get_template_directory_uri() . '/script/script.js', '1.0.0'); //microtime
     wp_enqueue_script('inventor');
     if ($GLOBALS['pagenow'] != 'wp-login.php' && !is_admin()) {
 
@@ -102,7 +102,7 @@ function html5blank_styles()
     wp_register_style('normalize', get_template_directory_uri() . '/normalize.css', array(), '1.0', 'all');
     wp_enqueue_style('normalize'); // Enqueue it!
 
-    wp_register_style('inventor', get_template_directory_uri() . '/styles/styles.css', array(), microtime(), 'all');
+    wp_register_style('inventor', get_template_directory_uri() . '/styles/styles.css', array(), '1.0.1', 'all'); //microtime
     wp_enqueue_style('inventor'); // Enqueue it!
 }
 

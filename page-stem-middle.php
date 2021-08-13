@@ -189,7 +189,7 @@ get_header(); ?>
                         </p>
                         <p class="course_info_p">
                             Children will be able to create their own projects using the given mean of composition, apply the Fibonacci numbers to create a building, structure, or ensemble. Future architects will learn the features and periods of styles, deepen knowledge of each of the composition means, discover volumetric-spatial composition, explore new architectural elements that are not typical of European countries. Children will improve the ability to work not only in pairs but also in teams, share duties depending on their skills and abilities. They will learn to appreciate their projects and works of others.
-                            <a href="#!" class="den_btn" data-toggle="modal" data-target="#learn_more">Learn More</a>
+                            <a href="<?php echo get_site_url(); ?>/learn_more" class="den_btn" data-toggle="modal" data-target="#learn_more">Learn More</a>
                         </p>
                     </div>
                 </div>
