@@ -712,8 +712,9 @@ body {
   text-decoration: none;
   text-align: center;
   display: block;
-  width: 220px;
-  height: 68px;
+  width: fit-content;
+  height: auto;
+  padding: 0 15px;
   line-height: 68px;
   border-radius: 5px;
   box-shadow: 0 10px 20px 1px hsla(0, 100%, 53%, 0.45);
@@ -2175,8 +2176,6 @@ h1 {
   }
   .den_btn {
     margin: 20px auto;
-    margin-top: 0px !important;
-    margin-bottom: 40px !important;
   }
   .footer_link_item {
     display: block;

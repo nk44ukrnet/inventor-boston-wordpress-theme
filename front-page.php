@@ -1,5 +1,7 @@
 <?php
 get_header();
+
+
 ?>
 
 <main class="main">
@@ -121,53 +123,7 @@ get_header();
                     </p>
                     <p class="testimonials_plain_sign">- Viktorich</p>
                 </div>
-
-                <!--page2
-
-                <div class="testimonials_plain_item test_plain2">
-
-                    <p class="testimonials_plain_p">
-
-                        Son has been involved with Inventor for 4.5 years. Each school year a new course. And every time
-                        it's something incredible !! This is Lego, and a little physics, a little engineering !! Super!
-                        I recommend !!
-
-                    </p>
-
-                    <p class="testimonials_plain_sign">- Oksana Priadka</p>
-
-                </div>
-
-                <div class="testimonials_plain_item test_plain2">
-
-                    <p class="testimonials_plain_p">
-
-                        Great new format institution! Creating creativity through a scientific and technical approach is
-                        a good start for choosing the professions of the future!
-
-                    </p>
-
-                    <p class="testimonials_plain_sign">- Alina Olifer</p>
-
-                </div>
-
-                <div class="testimonials_plain_item test_plain2">
-
-                    <p class="testimonials_plain_p">
-
-                        I was looking for a suitable studio for my son, and when I found out about the existence of the
-                        Inventor STEM school, I immediately called on the telephone number indicated on the site. The
-                        competent administrator provided full information about the services provided. I was very
-                        pleasantly surprised by the fact that classes are held on weekends, and also at 17-18 hours,
-                        which is very important for working parents.
-
-                    </p>
-
-                    <p class="testimonials_plain_sign">- Liubov Taran</p>
-
-                </div>
-
-                <!--page3-->
+                
 
                 <div class="testimonials_plain_item test_plain3">
 
@@ -308,7 +264,7 @@ get_header();
 
                 </p>
 
-                <a class="button_signup_video button_signup_video_compteneces" href="learn_more" data-toggle="modal"
+                <a class="button_signup_video button_signup_video_compteneces" href="/learn_more" data-toggle="modal"
                    data-target="#learn_more">
                     Learn More
                 </a> <br>
@@ -343,7 +299,7 @@ get_header();
                 <div class="singup_inner_item">
 
 
-                    <a href="learn_more" class="den_btn" data-toggle="modal" data-target="#learn_more">Learn More</a>
+                    <a href="/learn_more" class="den_btn" data-toggle="modal" data-target="#learn_more">Learn More</a>
 
                 </div>
 
