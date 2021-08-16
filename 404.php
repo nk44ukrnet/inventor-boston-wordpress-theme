@@ -1,24 +1,5 @@
 <?php get_header(); ?>
 
-	<main role="main" class="inner_wrapper">
-		<!-- section -->
-		<section>
-
-			<!-- article -->
-			<article id="post-404">
-
-				<h1><?php _e( 'Page not found', 'html5blank' ); ?></h1>
-				<h2>
-					<a href="<?php echo home_url(); ?>"><?php _e( 'Return home?', 'html5blank' ); ?></a>
-				</h2>
-
-			</article>
-			<!-- /article -->
-
-		</section>
-		<!-- /section -->
-	</main>
-
 <script>
     //support old static site urls:
     //check if url contain old .php address. if yes - redirect to new page;
@@ -56,5 +37,26 @@
         window.location.href = '/covid';
     }
 </script>
+
+	<main role="main" class="inner_wrapper">
+		<!-- section -->
+		<section>
+
+			<!-- article -->
+			<article id="post-404">
+
+				<h1><?php _e( 'Page not found', 'html5blank' ); ?></h1>
+				<h2>
+					<a href="<?php echo home_url(); ?>"><?php _e( 'Return home?', 'html5blank' ); ?></a>
+				</h2>
+
+			</article>
+			<!-- /article -->
+
+		</section>
+		<!-- /section -->
+	</main>
+
+
 
 <?php get_footer(); ?>
