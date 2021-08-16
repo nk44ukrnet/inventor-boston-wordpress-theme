@@ -97,6 +97,15 @@ window.addEventListener('DOMContentLoaded', function () {
         btnNav.addEventListener('click', function (e) {
             navItself.classList.toggle('nav_v2_on');
         });
+        navV2Li.forEach((item, idx)=> {
+            item.addEventListener('click', function (e) {
+                //expecting 2
+                if(item.children.length > 1) {
+                    let elDropdown = item.querySelector('.sub-menu');
+                    elDropdown.classList.toggle('nav_v2_on');
+                }
+            });
+        })
     } catch (e){
         console.log(e);
     }

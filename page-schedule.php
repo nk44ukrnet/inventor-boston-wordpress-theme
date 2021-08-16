@@ -86,6 +86,7 @@ get_header(); ?>
                     </div>
 
                     <div id="htmlTableSchedule">
+                        <div id="htmlTableScheduleLoading">Loading...</div>
                         <div class="tab_head" id="tab_head"></div>
                         <div class="schedule_tables" id="schedule_tables"></div>
                     </div>
@@ -160,7 +161,14 @@ get_header(); ?>
                         };
 
                         oReq.send();
+
                         function buildHTMLTable(arr) {
+                            try {
+                                let tableLoading = document.getElementById('htmlTableScheduleLoading');
+                                tableLoading.remove();
+                            } catch (e) {
+                                console.log(e);
+                            }
                             let myResLS = arr,
                                 //this IDS below are required!
                                 htmlTableSchedule = document.querySelector('#htmlTableSchedule'),

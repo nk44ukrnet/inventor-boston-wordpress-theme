@@ -22,13 +22,13 @@
   font-style: normal;
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Stolzl-Bold';
   src: url('../fonts/Stolzl-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Stolzl-Bold.otf') format('opentype'),
   url('../fonts/Stolzl-Bold.woff') format('woff'), url('../fonts/Stolzl-Bold.ttf') format('truetype'), url('../fonts/Stolzl-Bold.svg#Stolzl-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
-}
+}*/
 
 @font-face {
   font-family: 'StolzM-BoldCondensed';
@@ -2170,6 +2170,7 @@ h1 {
       text-align: center;
       &:hover .sub-menu{
         display:block;
+        display:none;
       }
       a {
         width: 100%;
@@ -2966,4 +2967,49 @@ p {
 .animationBlick {
   animation: blick 1.5s ease forwards;
   transition: all 1.5s ease;
+}
+
+/* cont forms */
+.cont-form {
+  width: 100%;
+  max-width: 366px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  input, textarea, select {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: 366px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 150%;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+  textarea {
+    height: auto;
+  }
+  input[type="submit"] {
+    color: #fff;
+    background-color: @redColor;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 66px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 5px hsl(0deg 100% 53% / 45%);
+    border: none;
+    &:hover {
+      box-shadow: none;
+      transition: box-shadow .25s linear;
+    }
+  }
 }
